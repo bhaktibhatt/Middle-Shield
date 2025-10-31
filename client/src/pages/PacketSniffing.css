@@ -1,30 +1,24 @@
-.placeholder-page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 400px;
-  text-align: center;
-  background: white;
-  border-radius: 16px;
-  padding: 60px 40px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+.packet-sniffing-page {
+  padding: 20px;
+  color: #fff;
+  background: #0a0a0a;
+  min-height: 100vh;
+  font-family: monospace;
 }
 
-.placeholder-icon {
-  font-size: 80px;
-  margin-bottom: 24px;
-  opacity: 0.8;
+.packet-output {
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 15px;
+  height: 70vh;
+  overflow-y: scroll;
+  white-space: pre-wrap;
 }
 
-.placeholder-page h1 {
-  font-size: 32px;
-  font-weight: 600;
-  color: #1f2937;
-  margin-bottom: 12px;
+.packet-line {
+  margin: 0;
+  padding: 5px 0;
+  border-bottom: 1px solid #222;
 }
 
-.placeholder-page p {
-  font-size: 16px;
-  color: #6b7280;
-}
